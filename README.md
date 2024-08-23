@@ -23,7 +23,7 @@
 
 ### 👨‍💻 About Me:
 
-- 🌱 I’m currently learning **INDUSTRY 5.0**
+- 🌱 I’m currently learning **1.0**
 - 💬 Ask me about **You**
 - 📫 How to reach me **zonaputra07@gmail.com**
 
