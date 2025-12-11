@@ -23,8 +23,8 @@
 
 ### 👨‍💻 About Me:
 
-- 🌱 I’m currently learning **1.0**
-- 💬 Ask me about **You**
+- 🌱 I’m currently learning **about WEB3**
+- 💬 Ask me
 - 📫 How to reach me **zonaputra07@gmail.com**
 
 ### 🛠️ My Favorite Tools:
