@@ -2,7 +2,7 @@
 
 # 🚧 UNDER MAINTENANCE 🚧
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2000&pause=800&color=FF3B3B&center=true&vCenter=true&width=600&lines=Portfolio+Updating...;Website+In+Progress...;Come+Back+Soon..." />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2000&pause=800&color=FF3B3B&center=true&vCenter=true&width=600&lines=Updating...;Come+Back+Soon..." />
 
 </div>
 
