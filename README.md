@@ -1,77 +1,36 @@
-<h1 align="center">Hi there, I'm Zona 👋</h1>
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/zona-0">
-    <img src="https://img.shields.io/github/followers/zona-0?label=Follow&style=social" alt="GitHub Followers">
-  </a>
-</p>
+# 🚧 UNDER MAINTENANCE 🚧
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=zona-0&color=blue&style=flat-square" alt="Profile Views"/>
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2000&pause=800&color=FF3B3B&center=true&vCenter=true&width=600&lines=Portfolio+Updating...;Website+In+Progress...;Come+Back+Soon..." />
 
-<p align="center">
-  <a href="https://github.com/zona-0">
-    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+</div>
 
 ---
 
-### 👨‍💻 About Me:
+## Status
 
-- 🌱 I’m currently learning **about WEB3**
-- 💬 Ask me
-- 📫 How to reach me **zonaputra07@gmail.com**
+This repository is currently **under maintenance**.
 
-### 🛠️ My Favorite Tools:
+The portfolio is being updated with:
 
-#### 💻 Programming Languages
-![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
-![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=css3)
-![C++](https://img.shields.io/badge/-C++-333333?style=flat&logo=c%2B%2B)
-![Lua](https://img.shields.io/badge/-Lua-333333?style=flat&logo=lua)
-
-#### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+- New projects
+- Improved UI/UX
+- Interactive animations
+- Performance optimizations
 
 ---
 
-### 📊 GitHub Stats:
+## Developer
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zona-0&show_icons=true&theme=radical" alt="GitHub Stats">
-</p>
+**Zona**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zona-0&layout=compact&theme=radical" alt="Top Languages">
-</p>
+Frontend & Creative Developer
 
 ---
 
-### 🏆 GitHub Trophies:
+## Notes
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=zona-0&theme=onedark" alt="GitHub Trophies">
-</p>
+The project will be available soon.
 
----
-
-### 📫 Connect with me:
-
-<p align="center">
-    <a href="https://www.instagram.com/zonazpz">
-    <img src="https://img.shields.io/badge/Instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="https://www.youtube.com/c/ZonaXE">
-    <img src="https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-  </a>
-  <a href="mailto:zonaputra07@gmail.com">
-    <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+Stay tuned.
