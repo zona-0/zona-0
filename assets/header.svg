@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1a14"/>
+      <stop offset="50%" stop-color="#0d1f17"/>
+      <stop offset="100%" stop-color="#081210"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7FFFD4"/>
+      <stop offset="50%" stop-color="#00E5A0"/>
+      <stop offset="100%" stop-color="#7FFFD4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .name { font: 800 72px 'Segoe UI', Ubuntu, sans-serif; fill: url(#textGrad); letter-spacing: 6px; }
+      .sub  { font: 500 18px 'Segoe UI', Ubuntu, sans-serif; fill: #4dbb97; letter-spacing: 3px; }
+      .dot  { fill: #00E5A0; }
+
+      .wave { animation: waveMove 4s ease-in-out infinite; }
+      @keyframes waveMove {
+        0%,100% { transform: translateY(0); }
+        50%      { transform: translateY(-6px); }
+      }
+
+      .name-always { opacity:1; }
+      @keyframes nameIn {
+        from { opacity:0; transform:translateY(20px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
+      .sub-always { opacity:1; }
+
+      .line-always { opacity:.5; }
+      @keyframes drawLine { to { stroke-dashoffset: 0; } }
+
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:.3} 50%{opacity:1} }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+
+  <!-- grid lines subtle -->
+  <g stroke="#0e3326" stroke-width=".5" opacity=".6">
+    <line x1="0" y1="40" x2="900" y2="40"/>
+    <line x1="0" y1="80" x2="900" y2="80"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="160" x2="900" y2="160"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="150" y1="0" x2="150" y2="220"/>
+    <line x1="300" y1="0" x2="300" y2="220"/>
+    <line x1="450" y1="0" x2="450" y2="220"/>
+    <line x1="600" y1="0" x2="600" y2="220"/>
+    <line x1="750" y1="0" x2="750" y2="220"/>
+  </g>
+
+  <!-- corner decorations -->
+  <rect x="18" y="18" width="30" height="2" fill="#00E5A0" rx="1"/>
+  <rect x="18" y="18" width="2" height="30" fill="#00E5A0" rx="1"/>
+  <rect x="852" y="18" width="30" height="2" fill="#00E5A0" rx="1"/>
+  <rect x="878" y="18" width="2" height="30" fill="#00E5A0" rx="1"/>
+  <rect x="18" y="200" width="30" height="2" fill="#00E5A0" rx="1"/>
+  <rect x="18" y="172" width="2" height="30" fill="#00E5A0" rx="1"/>
+  <rect x="852" y="200" width="30" height="2" fill="#00E5A0" rx="1"/>
+  <rect x="878" y="172" width="2" height="30" fill="#00E5A0" rx="1"/>
+
+  <!-- pulsing dots top right -->
+  <circle class="pulse" cx="830" cy="36" r="4" fill="#00E5A0" style="animation-delay:0s"/>
+  <circle class="pulse" cx="848" cy="36" r="4" fill="#00E5A0" style="animation-delay:.5s"/>
+  <circle class="pulse" cx="866" cy="36" r="4" fill="#00E5A0" style="animation-delay:1s"/>
+
+  <!-- bottom glow orb -->
+  <ellipse cx="450" cy="210" rx="280" ry="18" fill="#00E5A0" opacity=".08"/>
+
+  <!-- name -->
+  <g class="name-always">
+    <text class="name" x="450" y="118" text-anchor="middle" filter="url(#glow)">ZONA</text>
+  </g>
+
+  <!-- underline -->
+  <line class="line-always" x1="225" y1="132" x2="675" y2="132" stroke="#00E5A0" stroke-width="1.5" opacity=".5"/>
+
+  <!-- subtitle -->
+  <g class="sub-always">
+    <text class="sub" x="450" y="162" text-anchor="middle" filter="url(#softglow)">SOFTWARE ENGINEER</text>
+  </g>
+
+  <!-- bottom wave shape -->
+  <path d="M0 195 Q225 175 450 195 Q675 215 900 195 L900 220 L0 220 Z" fill="#0d1117"/>
+</svg>
