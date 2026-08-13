@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#122b21"/>
       <stop offset="100%" stop-color="#0d1a14"/>
     </linearGradient>
-    <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="rG" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#00E5A0"/>
       <stop offset="100%" stop-color="#7FFFD4"/>
     </linearGradient>
@@ -14,58 +14,43 @@
     </filter>
   </defs>
 
-  <rect width="900" height="200" rx="14" fill="url(#bg)" stroke="#1a3d2e" stroke-width="1"/>
-  <line x1="225" y1="20" x2="225" y2="180" stroke="#1a3d2e" stroke-width="1"/>
-  <line x1="450" y1="20" x2="450" y2="180" stroke="#1a3d2e" stroke-width="1"/>
-  <line x1="675" y1="20" x2="675" y2="180" stroke="#1a3d2e" stroke-width="1"/>
+  <rect width="900" height="190" rx="14" fill="url(#bg)" stroke="#1a3d2e" stroke-width="1"/>
+  <line x1="225" y1="16" x2="225" y2="174" stroke="#1a3d2e" stroke-width="1"/>
+  <line x1="450" y1="16" x2="450" y2="174" stroke="#1a3d2e" stroke-width="1"/>
+  <line x1="675" y1="16" x2="675" y2="174" stroke="#1a3d2e" stroke-width="1"/>
 
-  <g transform="translate(112,0)">
-    <g transform="translate(-20,26)">
-      <rect x="0"  y="0"  width="7" height="10" fill="#00E5A0" opacity="0.4"/>
-      <rect x="9"  y="-6" width="7" height="16" fill="#00E5A0" opacity="0.65"/>
-      <rect x="18" y="-14" width="7" height="24" fill="#00E5A0" filter="url(#glow)"/>
-      <rect x="27" y="-5" width="7" height="15" fill="#00E5A0" opacity="0.65"/>
-      <rect x="36" y="2"  width="7" height="8"  fill="#00E5A0" opacity="0.4"/>
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
-    </g>
-    <text x="0" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">158</text>
-    <text x="0" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">TOTAL CONTRIBUTIONS</text>
-    <text x="0" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">Aug 2024 – Present</text>
+  <g transform="translate(92,24)">
+    <rect x="0"  y="8"  width="7" height="10" fill="#00E5A0" opacity="0.4"/>
+    <rect x="10" y="2"  width="7" height="16" fill="#00E5A0" opacity="0.65"/>
+    <rect x="20" y="-6" width="7" height="24" fill="#00E5A0" filter="url(#glow)"/>
+    <rect x="30" y="3"  width="7" height="15" fill="#00E5A0" opacity="0.65"/>
+    <rect x="40" y="9"  width="7" height="9"  fill="#00E5A0" opacity="0.4"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
   </g>
-  
-  <g transform="translate(337,0)">
-    <circle cx="0" cy="52" r="22" fill="none" stroke="#1a3d2e" stroke-width="3"/>
-    <circle cx="0" cy="52" r="22" fill="none" stroke="url(#ringG)" stroke-width="3"
-            stroke-dasharray="138" stroke-dashoffset="138" stroke-linecap="round"
-            transform="rotate(-90,0,52)" filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset" from="138" to="23" dur="1.4s" begin="0.1s" fill="freeze"/>
-    </circle>
-    <path d="M-3,32 C-3,32 0,36 -1,39 C1,37 2,33 1,31 C4,36 3,41 0,43 C-2,45 -5,44 -6,42 C-8,39 -7,34 -4,31 Z" fill="#00E5A0" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
-    </path>
-    <text x="0" y="60" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="24" font-weight="800" fill="#00E5A0" filter="url(#glow)">1</text>
-    <text x="0" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">CURRENT STREAK</text>
-    <text x="0" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">Aug 13, 2026</text>
-  </g>
+  <text x="112" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="44" font-weight="800" fill="#00E5A0" filter="url(#glow)">158</text>
+  <text x="112" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">TOTAL CONTRIBUTIONS</text>
+  <text x="112" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">Aug 2024 – Present</text>
 
-  <g transform="translate(562,0)">
-    <path d="M4,36 L-4,52 L2,52 L-4,68 L8,48 L2,48 Z" fill="#00E5A0" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <text x="0" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">3</text>
-    <text x="0" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">LONGEST STREAK</text>
-    <text x="0" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">May 16 – 18, 2025</text>
-  </g>
-  
-  <g transform="translate(787,0)">
-    <rect x="-18" y="32" width="36" height="26" rx="3" fill="#122b21" stroke="#00E5A0" stroke-width="1.2" filter="url(#glow)"/>
-    <rect x="-18" y="28" width="14" height="6" rx="2" fill="#00E5A0"/>
-    <rect x="-12" y="40" width="24" height="1.5" rx="1" fill="#1a3d2e"/>
-    <rect x="-12" y="45" width="18" height="1.5" rx="1" fill="#1a3d2e"/>
-    <rect x="-12" y="50" width="20" height="1.5" rx="1" fill="#1a3d2e"/>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
-    <text x="0" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">10</text>
-    <text x="0" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">PUBLIC REPOS</text>
-    <text x="0" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">github.com/zona-0</text>
-  </g>
+  <path d="M337,18 C337,18 342,24 341,29 C344,26 345,20 343,17 C347,23 346,30 342,34 C338,38 333,37 331,33 C328,29 329,22 333,18 Z" fill="#00E5A0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+  <text x="337" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="44" font-weight="800" fill="#00E5A0" filter="url(#glow)">1</text>
+  <text x="337" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">CURRENT STREAK</text>
+  <text x="337" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">Aug 13, 2026</text>
+
+  <path d="M567,18 L556,44 L563,44 L552,70 L575,40 L568,40 Z" fill="#00E5A0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <text x="562" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="44" font-weight="800" fill="#00E5A0" filter="url(#glow)">3</text>
+  <text x="562" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">LONGEST STREAK</text>
+  <text x="562" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">May 16 – 18, 2025</text>
+
+  <rect x="769" y="22" width="36" height="28" rx="3" fill="#122b21" stroke="#00E5A0" stroke-width="1.4" filter="url(#glow)"/>
+  <rect x="769" y="16" width="16" height="8" rx="2" fill="#00E5A0"/>
+  <rect x="775" y="32" width="24" height="2" rx="1" fill="#1a3d2e"/>
+  <rect x="775" y="38" width="18" height="2" rx="1" fill="#1a3d2e"/>
+  <rect x="775" y="44" width="20" height="2" rx="1" fill="#1a3d2e"/>
+  <text x="787" y="100" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="44" font-weight="800" fill="#00E5A0" filter="url(#glow)">10</text>
+  <text x="787" y="124" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" font-weight="700" fill="#4dbb97" letter-spacing="1.5">PUBLIC REPOS</text>
+  <text x="787" y="140" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="10" fill="#2d6a54">github.com/zona-0</text>
 </svg>
