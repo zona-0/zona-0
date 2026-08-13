@@ -1,118 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330" fill="none" role="img" aria-label="Language distribution chart">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310">
   <defs>
-    <linearGradient id="gGo" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00E5A0"/>
-      <stop offset="100%" stop-color="#7FFFD4"/>
-    </linearGradient>
-    <linearGradient id="gJs" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0FBF8A"/>
-      <stop offset="100%" stop-color="#5EEBC0"/>
-    </linearGradient>
-    <linearGradient id="gJava" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#12A87C"/>
-      <stop offset="100%" stop-color="#4BDDAE"/>
-    </linearGradient>
-    <linearGradient id="gVue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0E8F6C"/>
-      <stop offset="100%" stop-color="#3ACF9E"/>
-    </linearGradient>
-    <linearGradient id="gHtml" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0B735A"/>
-      <stop offset="100%" stop-color="#2FBF90"/>
-    </linearGradient>
-
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
+    <linearGradient id="goG"   x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00E5A0"/><stop offset="100%" stop-color="#7FFFD4"/></linearGradient>
+    <linearGradient id="jsG"   x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00C98C"/><stop offset="100%" stop-color="#5EEBC0"/></linearGradient>
+    <linearGradient id="javaG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00B07C"/><stop offset="100%" stop-color="#40D4A8"/></linearGradient>
+    <linearGradient id="vueG"  x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#009068"/><stop offset="100%" stop-color="#2FBF90"/></linearGradient>
+    <linearGradient id="htmlG" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#007558"/><stop offset="100%" stop-color="#20A87E"/></linearGradient>
+    <filter id="gw"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
-      .title { font: 700 21px 'Segoe UI', Ubuntu, sans-serif; fill: #7FFFD4; }
-      .sub   { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #4d7f72; }
-      .lang  { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #d6fff2; }
-      .pct   { font: 700 13px 'Segoe UI', Ubuntu, sans-serif; fill: #7FFFD4; }
-      .track { fill: #16241f; }
+      .t-title { font: 700 20px 'Segoe UI',Ubuntu,sans-serif; fill: #7FFFD4; }
+      .t-sub   { font: 400 12px 'Segoe UI',Ubuntu,sans-serif; fill: #3d8a72; }
+      .t-lang  { font: 600 15px 'Segoe UI',Ubuntu,sans-serif; fill: #d6fff2; }
+      .t-pct   { font: 700 14px 'Segoe UI',Ubuntu,sans-serif; fill: #00E5A0; }
+      .t-repo  { font: 400 12px 'Segoe UI',Ubuntu,sans-serif; fill: #3d8a72; }
+      .track   { fill: #13261f; }
 
-      .row { animation: rowIn .55s ease-out both; }
-      .r1 { animation-delay: .10s } .r2 { animation-delay: .25s }
-      .r3 { animation-delay: .40s } .r4 { animation-delay: .55s }
-      .r5 { animation-delay: .70s }
-
-      @keyframes rowIn {
-        from { opacity: 0; transform: translateX(-18px); }
-        to   { opacity: 1; transform: translateX(0); }
-      }
-
-      .bar { transform-origin: left center; animation: grow 1.2s cubic-bezier(.22,.9,.28,1) both; }
-      .b1 { animation-delay: .30s } .b2 { animation-delay: .45s }
-      .b3 { animation-delay: .60s } .b4 { animation-delay: .75s }
-      .b5 { animation-delay: .90s }
-
+      .bar { transform-origin: left center; }
+      .b1 { animation: grow 1s cubic-bezier(.22,.9,.28,1) .15s forwards; }
+      .b2 { animation: grow 1s cubic-bezier(.22,.9,.28,1) .28s forwards; }
+      .b3 { animation: grow 1s cubic-bezier(.22,.9,.28,1) .41s forwards; }
+      .b4 { animation: grow 1s cubic-bezier(.22,.9,.28,1) .54s forwards; }
+      .b5 { animation: grow 1s cubic-bezier(.22,.9,.28,1) .67s forwards; }
       @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
-      .head { animation: fadeUp .7s ease-out both; }
-      @keyframes fadeUp {
-        from { opacity: 0; transform: translateY(-10px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
+      .row { animation: slide .5s ease-out forwards; }
+      .r1{animation-delay:.10s}.r2{animation-delay:.23s}.r3{animation-delay:.36s}.r4{animation-delay:.49s}.r5{animation-delay:.62s}
+      @keyframes slide { from { opacity:0; transform:translateX(-14px); } to { opacity:1; transform:translateX(0); } }
 
-      .pulse { animation: pulse 3s ease-in-out infinite; }
-      @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: .85 } }
+      .dot { animation: blink 2.5s ease-in-out infinite; }
+      .d1{animation-delay:0s}.d2{animation-delay:.4s}.d3{animation-delay:.8s}
+      @keyframes blink { 0%,100%{opacity:.3} 50%{opacity:1} }
     </style>
   </defs>
 
-  <rect width="820" height="330" rx="14" fill="#0d1117" stroke="#1d3830"/>
+  <rect width="900" height="310" rx="14" fill="#0d1a14" stroke="#1a3d2e" stroke-width="1"/>
 
-  <!-- decorative pulsing dots -->
-  <circle class="pulse" cx="770" cy="42" r="3" fill="#00E5A0"/>
-  <circle class="pulse" cx="784" cy="42" r="3" fill="#00E5A0" style="animation-delay:.6s"/>
-  <circle class="pulse" cx="798" cy="42" r="3" fill="#00E5A0" style="animation-delay:1.2s"/>
+  <!-- header -->
+  <text class="t-title" x="34" y="46" filter="url(#gw)">Language Distribution</text>
+  <text class="t-sub"   x="34" y="66">Primary language across 10 public repositories · zona-0</text>
+  <circle class="dot d1" cx="828" cy="38" r="4" fill="#00E5A0"/>
+  <circle class="dot d2" cx="848" cy="38" r="4" fill="#00E5A0"/>
+  <circle class="dot d3" cx="868" cy="38" r="4" fill="#00E5A0"/>
 
-  <g class="head">
-    <text class="title" x="34" y="46" filter="url(#glow)">Language Distribution</text>
-    <text class="sub" x="34" y="68">Primary language across 10 public repositories</text>
-  </g>
-
-  <!-- Go 30% -->
+  <!-- Go 30% — bar width = 420 * 0.30 = 126 ... full width 420 at 100% -->
   <g class="row r1">
-    <text class="lang" x="34" y="112">Go</text>
-    <rect class="track" x="150" y="98" width="560" height="18" rx="9"/>
-    <rect class="bar b1" x="150" y="98" width="168" height="18" rx="9" fill="url(#gGo)" filter="url(#glow)"/>
-    <text class="pct" x="732" y="112">30%</text>
+    <text class="t-lang" x="34"  y="112">Go</text>
+    <text class="t-repo" x="34"  y="126">3 repos</text>
+    <rect class="track" x="160" y="100" width="600" height="22" rx="11"/>
+    <rect class="bar b1" x="160" y="100" width="180" height="22" rx="11" fill="url(#goG)" filter="url(#gw)"/>
+    <text class="t-pct" x="776" y="116">30%</text>
   </g>
 
   <!-- JavaScript 30% -->
   <g class="row r2">
-    <text class="lang" x="34" y="156">JavaScript</text>
-    <rect class="track" x="150" y="142" width="560" height="18" rx="9"/>
-    <rect class="bar b2" x="150" y="142" width="168" height="18" rx="9" fill="url(#gJs)" filter="url(#glow)"/>
-    <text class="pct" x="732" y="156">30%</text>
+    <text class="t-lang" x="34"  y="164">JavaScript</text>
+    <text class="t-repo" x="34"  y="178">3 repos</text>
+    <rect class="track" x="160" y="152" width="600" height="22" rx="11"/>
+    <rect class="bar b2" x="160" y="152" width="180" height="22" rx="11" fill="url(#jsG)" filter="url(#gw)"/>
+    <text class="t-pct" x="776" y="168">30%</text>
   </g>
 
   <!-- Java 20% -->
   <g class="row r3">
-    <text class="lang" x="34" y="200">Java</text>
-    <rect class="track" x="150" y="186" width="560" height="18" rx="9"/>
-    <rect class="bar b3" x="150" y="186" width="112" height="18" rx="9" fill="url(#gJava)" filter="url(#glow)"/>
-    <text class="pct" x="732" y="200">20%</text>
+    <text class="t-lang" x="34"  y="216">Java</text>
+    <text class="t-repo" x="34"  y="230">2 repos</text>
+    <rect class="track" x="160" y="204" width="600" height="22" rx="11"/>
+    <rect class="bar b3" x="160" y="204" width="120" height="22" rx="11" fill="url(#javaG)" filter="url(#gw)"/>
+    <text class="t-pct" x="776" y="220">20%</text>
   </g>
 
   <!-- Vue 10% -->
   <g class="row r4">
-    <text class="lang" x="34" y="244">Vue</text>
-    <rect class="track" x="150" y="230" width="560" height="18" rx="9"/>
-    <rect class="bar b4" x="150" y="230" width="56" height="18" rx="9" fill="url(#gVue)" filter="url(#glow)"/>
-    <text class="pct" x="732" y="244">10%</text>
+    <text class="t-lang" x="34"  y="268">Vue</text>
+    <text class="t-repo" x="34"  y="282">1 repo</text>
+    <rect class="track" x="160" y="256" width="600" height="22" rx="11"/>
+    <rect class="bar b4" x="160" y="256" width="60"  height="22" rx="11" fill="url(#vueG)" filter="url(#gw)"/>
+    <text class="t-pct" x="776" y="272">10%</text>
   </g>
 
   <!-- HTML 10% -->
   <g class="row r5">
-    <text class="lang" x="34" y="288">HTML</text>
-    <rect class="track" x="150" y="274" width="560" height="18" rx="9"/>
-    <rect class="bar b5" x="150" y="274" width="56" height="18" rx="9" fill="url(#gHtml)" filter="url(#glow)"/>
-    <text class="pct" x="732" y="288">10%</text>
+    <!-- moved down a bit, total height = 310 → last row at y~306 looks tight, keep 290 range -->
+    <text class="t-lang" x="820" y="268" text-anchor="end" visibility="hidden"/><!-- placeholder -->
+  </g>
+
+  <!-- mini donut right side (static visual) -->
+  <g transform="translate(848,165)">
+    <!-- background circle -->
+    <circle cx="0" cy="0" r="52" fill="#13261f" stroke="#1a3d2e" stroke-width="1"/>
+    <!-- Go 30% = 108deg -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#00E5A0" stroke-width="14"
+            stroke-dasharray="64 149" stroke-dashoffset="0"
+            transform="rotate(-90)" filter="url(#gw)">
+      <animate attributeName="stroke-dasharray" from="0 213" to="64 149" dur="1.2s" begin="0.1s" fill="freeze"/>
+    </circle>
+    <!-- JS 30% -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#00C98C" stroke-width="14"
+            stroke-dasharray="64 149" stroke-dashoffset="-64"
+            transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" from="0 213" to="64 149" dur="1.2s" begin="0.25s" fill="freeze"/>
+    </circle>
+    <!-- Java 20% -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#00B07C" stroke-width="14"
+            stroke-dasharray="43 170" stroke-dashoffset="-128"
+            transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" from="0 213" to="43 170" dur="1.2s" begin="0.4s" fill="freeze"/>
+    </circle>
+    <!-- Vue 10% -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#009068" stroke-width="14"
+            stroke-dasharray="21 192" stroke-dashoffset="-171"
+            transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" from="0 213" to="21 192" dur="1.2s" begin="0.55s" fill="freeze"/>
+    </circle>
+    <!-- HTML 10% -->
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#007558" stroke-width="14"
+            stroke-dasharray="21 192" stroke-dashoffset="-192"
+            transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" from="0 213" to="21 192" dur="1.2s" begin="0.7s" fill="freeze"/>
+    </circle>
+    <!-- center label -->
+    <text x="0" y="-6" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#7FFFD4">10</text>
+    <text x="0" y="8"  text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9"  fill="#3d8a72">repos</text>
   </g>
 </svg>
