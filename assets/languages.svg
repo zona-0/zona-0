@@ -34,14 +34,12 @@
 
   <rect width="900" height="310" rx="14" fill="#0d1a14" stroke="#1a3d2e" stroke-width="1"/>
 
-  <!-- header -->
   <text class="t-title" x="34" y="46" filter="url(#gw)">Language Distribution</text>
   <text class="t-sub"   x="34" y="66">Primary language across 10 public repositories · zona-0</text>
   <circle class="dot d1" cx="828" cy="38" r="4" fill="#00E5A0"/>
   <circle class="dot d2" cx="848" cy="38" r="4" fill="#00E5A0"/>
   <circle class="dot d3" cx="868" cy="38" r="4" fill="#00E5A0"/>
 
-  <!-- Go 30% — bar width = 420 * 0.30 = 126 ... full width 420 at 100% -->
   <g class="row r1">
     <text class="t-lang" x="34"  y="112">Go</text>
     <text class="t-repo" x="34"  y="126">3 repos</text>
@@ -50,7 +48,6 @@
     <text class="t-pct" x="776" y="116">30%</text>
   </g>
 
-  <!-- JavaScript 30% -->
   <g class="row r2">
     <text class="t-lang" x="34"  y="164">JavaScript</text>
     <text class="t-repo" x="34"  y="178">3 repos</text>
@@ -59,7 +56,6 @@
     <text class="t-pct" x="776" y="168">30%</text>
   </g>
 
-  <!-- Java 20% -->
   <g class="row r3">
     <text class="t-lang" x="34"  y="216">Java</text>
     <text class="t-repo" x="34"  y="230">2 repos</text>
@@ -68,7 +64,6 @@
     <text class="t-pct" x="776" y="220">20%</text>
   </g>
 
-  <!-- Vue 10% -->
   <g class="row r4">
     <text class="t-lang" x="34"  y="268">Vue</text>
     <text class="t-repo" x="34"  y="282">1 repo</text>
@@ -77,47 +72,33 @@
     <text class="t-pct" x="776" y="272">10%</text>
   </g>
 
-  <!-- HTML 10% -->
-  <g class="row r5">
-    <!-- moved down a bit, total height = 310 → last row at y~306 looks tight, keep 290 range -->
-    <text class="t-lang" x="820" y="268" text-anchor="end" visibility="hidden"/><!-- placeholder -->
-  </g>
-
-  <!-- mini donut right side (static visual) -->
   <g transform="translate(848,165)">
-    <!-- background circle -->
     <circle cx="0" cy="0" r="52" fill="#13261f" stroke="#1a3d2e" stroke-width="1"/>
-    <!-- Go 30% = 108deg -->
     <circle cx="0" cy="0" r="34" fill="none" stroke="#00E5A0" stroke-width="14"
             stroke-dasharray="64 149" stroke-dashoffset="0"
             transform="rotate(-90)" filter="url(#gw)">
       <animate attributeName="stroke-dasharray" from="0 213" to="64 149" dur="1.2s" begin="0.1s" fill="freeze"/>
     </circle>
-    <!-- JS 30% -->
     <circle cx="0" cy="0" r="34" fill="none" stroke="#00C98C" stroke-width="14"
             stroke-dasharray="64 149" stroke-dashoffset="-64"
             transform="rotate(-90)">
       <animate attributeName="stroke-dasharray" from="0 213" to="64 149" dur="1.2s" begin="0.25s" fill="freeze"/>
     </circle>
-    <!-- Java 20% -->
     <circle cx="0" cy="0" r="34" fill="none" stroke="#00B07C" stroke-width="14"
             stroke-dasharray="43 170" stroke-dashoffset="-128"
             transform="rotate(-90)">
       <animate attributeName="stroke-dasharray" from="0 213" to="43 170" dur="1.2s" begin="0.4s" fill="freeze"/>
     </circle>
-    <!-- Vue 10% -->
     <circle cx="0" cy="0" r="34" fill="none" stroke="#009068" stroke-width="14"
             stroke-dasharray="21 192" stroke-dashoffset="-171"
             transform="rotate(-90)">
       <animate attributeName="stroke-dasharray" from="0 213" to="21 192" dur="1.2s" begin="0.55s" fill="freeze"/>
     </circle>
-    <!-- HTML 10% -->
     <circle cx="0" cy="0" r="34" fill="none" stroke="#007558" stroke-width="14"
             stroke-dasharray="21 192" stroke-dashoffset="-192"
             transform="rotate(-90)">
       <animate attributeName="stroke-dasharray" from="0 213" to="21 192" dur="1.2s" begin="0.7s" fill="freeze"/>
     </circle>
-    <!-- center label -->
     <text x="0" y="-6" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="11" font-weight="700" fill="#7FFFD4">10</text>
     <text x="0" y="8"  text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9"  fill="#3d8a72">repos</text>
   </g>

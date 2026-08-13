@@ -27,10 +27,8 @@
 
   <rect width="900" height="140" fill="url(#footerBg)"/>
 
-  <!-- decorative top line -->
   <rect x="0" y="0" width="900" height="1.5" fill="url(#lineG)"/>
 
-  <!-- wave bottom -->
   <path class="wave-path" d="M0 40 Q225 20 450 40 Q675 60 900 40 L900 140 L0 140 Z" fill="#081210"/>
 
   <g class="fade-in">
@@ -38,19 +36,16 @@
     <text class="f-label" x="450" y="54" text-anchor="middle">Backend · AI Tooling · Open Source</text>
   </g>
 
-  <!-- GitHub pill -->
   <g class="pill-hover p1">
     <rect x="315" y="68" width="120" height="34" rx="17" class="pill"/>
     <text class="f-link" x="375" y="90" text-anchor="middle">github.com/zona-0</text>
   </g>
 
-  <!-- Followers pill -->
   <g class="pill-hover p2">
     <rect x="455" y="68" width="90" height="34" rx="17" class="pill"/>
     <text class="f-link" x="500" y="90" text-anchor="middle">5 followers</text>
   </g>
 
-  <!-- repos pill -->
   <g class="pill-hover p3">
     <rect x="562" y="68" width="80" height="34" rx="17" class="pill"/>
     <text class="f-link" x="602" y="90" text-anchor="middle">10 repos</text>

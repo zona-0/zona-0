@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Go+%C2%B7+Java+%C2%B7+JavaScript+Developer;Building+AI+assistants+and+backend+systems;10+public+repositories+and+counting" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Go+%C2%B7+Java+%C2%B7+JavaScript;Building+AI+assistants+and+backend+systems;10+public+repositories+and+counting" alt="typing"/>
 
 </div>
 

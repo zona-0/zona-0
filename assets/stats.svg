@@ -26,12 +26,10 @@
 
   <rect width="900" height="190" rx="14" class="card"/>
 
-  <!-- dividers -->
   <line class="divider" x1="225" y1="20" x2="225" y2="170"/>
   <line class="divider" x1="450" y1="20" x2="450" y2="170"/>
   <line class="divider" x1="675" y1="20" x2="675" y2="170"/>
 
-  <!-- Card 1: Total Contributions -->
   <g transform="translate(112,95)">
     <g class="cnt c1">
       <text class="c-val" x="0" y="-14" text-anchor="middle" filter="url(#gw)">158</text>
@@ -40,11 +38,8 @@
     </g>
   </g>
 
-  <!-- Card 2: Current Streak (ring) -->
   <g transform="translate(337,95)">
-    <!-- ring track -->
     <circle cx="0" cy="-20" r="30" fill="none" stroke="#1a3d2e" stroke-width="7"/>
-    <!-- ring fill -->
     <circle class="ring-anim" cx="0" cy="-20" r="30" fill="none" stroke="#00E5A0" stroke-width="7"
             stroke-linecap="round" transform="rotate(-90)" filter="url(#gw)"/>
     <g class="cnt c2">
@@ -52,13 +47,11 @@
       <text class="c-label" x="0" y="18" text-anchor="middle">CURRENT STREAK</text>
       <text class="c-sub"   x="0" y="34" text-anchor="middle">Aug 13, 2026</text>
     </g>
-    <!-- flame icon custom -->
     <g transform="translate(-6,-50)" class="pulse">
       <path d="M6 0 C6 0 10 4 9 8 C12 5 11 1 10 0 C12 3 14 7 12 11 C10 15 6 16 6 16 C6 16 8 14 7 11 C5 13 4 15 4 16 C2 13 2 9 4 6 C3 8 2 10 3 12 C1 8 2 3 6 0Z" fill="#00E5A0" filter="url(#gw)"/>
     </g>
   </g>
 
-  <!-- Card 3: Longest Streak -->
   <g transform="translate(562,95)">
     <g class="cnt c3">
       <text class="c-val" x="0" y="-14" text-anchor="middle" filter="url(#gw)">3</text>
@@ -67,7 +60,6 @@
     </g>
   </g>
 
-  <!-- Card 4: Public Repos -->
   <g transform="translate(787,95)">
     <g class="cnt c4">
       <text class="c-val" x="0" y="-14" text-anchor="middle" filter="url(#gw)">10</text>
