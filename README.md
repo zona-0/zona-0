@@ -1,21 +1,20 @@
 <div align="center">
 
-<!-- ====== BANNER ATAS (light, gradient biru muda) ====== -->
+<!-- ====== HEADER BANNER (light, soft blue gradient) ====== -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e6f4ff,100:ffffff&height=200&section=header&text=HI,%20I'M%20ZONA&fontSize=42&fontColor=0969da&animation=fadeIn&fontAlignY=38&desc=Building%20things%20with%20Go,%20Java%20%26%20JavaScript&descAlignY=58&descSize=16&descAlign=50" width="100%"/>
 
 <!-- ====== TYPING ANIMATION ====== -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=650&lines=github.com%2Fzona-0;Go+%C2%B7+Java+%C2%B7+JavaScript+developer;Currently+exploring+AI+%26+backend+systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=650&lines=github.com%2Fzona-0;Go+%C2%B7+Java+%C2%B7+JavaScript+Developer;Exploring+AI+%26+Backend+Systems" alt="Typing SVG" />
 
 <br/>
 
 <p>
-  <a href="#-tentang">Tentang</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-proyek">Proyek</a> •
-  <a href="#-statistik-github">Statistik</a> •
+  <a href="#-about">About</a> •
+  <a href="#-languages--tech-stack">Languages</a> •
+  <a href="#-projects">Projects</a> •
+  <a href="#-github-stats">Stats</a> •
   <a href="#-trophy-room">Trophy</a> •
-  <a href="#-mini-game">Game</a> •
-  <a href="#-kontak">Kontak</a>
+  <a href="#-contact">Contact</a>
 </p>
 
 <img src="https://img.shields.io/github/followers/zona-0?label=Followers&style=flat-square&color=0969da&labelColor=f6f8fa" />
@@ -27,23 +26,23 @@
 
 <br/>
 
-## 👋 Tentang
+## 👋 About
 
 ```yaml
-Username   : zona-0
-Nama       : Zona
-Repository : 10 public repo
-Followers  : 5   •   Following: 3
-Fokus      : Backend (Go, Java) & Web (JavaScript, Vue)
+Username    : zona-0
+Name        : Zona
+Repositories: 10 public repos
+Followers   : 5   •   Following: 3
+Focus       : Backend (Go, Java) & Web (JavaScript, Vue)
 ```
 
-> Bio profil GitHub kamu saat ini masih kosong. Tambahkan bio singkat di **Settings → Public profile** biar bagian ini bisa otomatis lebih personal (mis. peran, lokasi, atau fokus belajar).
+> Your GitHub bio is currently empty. Add a short bio under **Settings → Public profile** to make this section more personal (e.g. your role, location, or current focus).
 
 ---
 
-## 🛠 Tech Stack
+## 💻 Languages & Tech Stack
 
-Berdasarkan bahasa yang benar-benar dipakai di 10 repository kamu:
+Real breakdown pulled directly from your 10 public repositories:
 
 <div align="center">
 
@@ -55,19 +54,25 @@ Berdasarkan bahasa yang benar-benar dipakai di 10 repository kamu:
 
 </div>
 
-| Bahasa | Jumlah Repo | Proporsi |
+### 📊 Language Distribution
+
+| Language | Repos | Share |
 |---|---|---|
-| 🟦 Go | 3 repo | ██████████░░░░░░░░░░ 30% |
-| 🟨 JavaScript | 3 repo | ██████████░░░░░░░░░░ 30% |
-| 🟧 Java | 2 repo | ███████░░░░░░░░░░░░░ 20% |
+| 🟦 Go | 3 repos | ██████████░░░░░░░░░░ 30% |
+| 🟨 JavaScript | 3 repos | ██████████░░░░░░░░░░ 30% |
+| 🟧 Java | 2 repos | ███████░░░░░░░░░░░░░ 20% |
 | 🟩 Vue | 1 repo | ███░░░░░░░░░░░░░░░░░ 10% |
 | 🟥 HTML | 1 repo | ███░░░░░░░░░░░░░░░░░ 10% |
 
-<sub>Dihitung dari bahasa utama tiap repository di github.com/zona-0 (per Agustus 2026).</sub>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zona-0&layout=pie&theme=default&hide_border=true&bg_color=ffffff&title_color=0969da&text_color=24292f" width="55%"/>
+</div>
+
+<sub>Calculated from each repository's primary language on github.com/zona-0 (as of August 2026).</sub>
 
 ---
 
-## 🚀 Proyek
+## 🚀 Projects
 
 <div align="center">
 <table>
@@ -75,7 +80,7 @@ Berdasarkan bahasa yang benar-benar dipakai di 10 repository kamu:
 <td width="50%" valign="top">
 
 ### 🤖 [Career-Edge](https://github.com/zona-0/Career-Edge)
-AI-Assistance — proyek asisten berbasis AI.
+AI-Assistance — an AI-powered assistant project.
 
 `Go`
 
@@ -83,7 +88,7 @@ AI-Assistance — proyek asisten berbasis AI.
 <td width="50%" valign="top">
 
 ### 🧠 [CleverAI](https://github.com/zona-0/CleverAI)
-Proyek berbasis Java, dibuat & diperbarui pertengahan 2026.
+Java-based project, built and updated mid-2026.
 
 `Java`
 
@@ -93,7 +98,7 @@ Proyek berbasis Java, dibuat & diperbarui pertengahan 2026.
 <td width="50%" valign="top">
 
 ### 🌱 [WeBean](https://github.com/zona-0/WeBean)
-Proyek JavaScript terbaru — masih aktif dikembangkan.
+Latest JavaScript project — actively in development.
 
 `JavaScript`
 
@@ -101,7 +106,7 @@ Proyek JavaScript terbaru — masih aktif dikembangkan.
 <td width="50%" valign="top">
 
 ### 🚦 [SmartTrafficManagement](https://github.com/zona-0/SmartTrafficManagement)
-Sistem manajemen lalu lintas berbasis Vue.js.
+A traffic management system built with Vue.js.
 
 `Vue`
 
@@ -111,7 +116,7 @@ Sistem manajemen lalu lintas berbasis Vue.js.
 <td width="50%" valign="top">
 
 ### ☎️ [VoIP-Integration](https://github.com/zona-0/VoIP-Integration)
-Integrasi layanan VoIP menggunakan JavaScript.
+VoIP service integration written in JavaScript.
 
 `JavaScript`
 
@@ -119,7 +124,7 @@ Integrasi layanan VoIP menggunakan JavaScript.
 <td width="50%" valign="top">
 
 ### 🎓 [learning-assistant](https://github.com/zona-0/learning-assistant)
-Asisten pembelajaran berbasis Java.
+A Java-based learning assistant.
 
 `Java`
 
@@ -129,7 +134,7 @@ Asisten pembelajaran berbasis Java.
 <td width="50%" valign="top">
 
 ### 🌐 [Local-CDN-Project](https://github.com/zona-0/Local-CDN-Project)
-Eksperimen CDN lokal berbasis HTML.
+Experimental local CDN built with HTML.
 
 `HTML`
 
@@ -137,7 +142,7 @@ Eksperimen CDN lokal berbasis HTML.
 <td width="50%" valign="top">
 
 ### 🧬 [Virtual_PreTrained_Transformer](https://github.com/zona-0/Virtual_PreTrained_Transformer)
-Eksperimen model transformer, ditulis dalam Go.
+Transformer model experiment, written in Go.
 
 `Go`
 
@@ -153,11 +158,11 @@ Eksperimen model transformer, ditulis dalam Go.
 
 </div>
 
-> Deskripsi di atas dibuat dari nama & bahasa repo aslimu (banyak repo belum punya deskripsi di GitHub). Tambahkan deskripsi singkat di halaman tiap repo → **Edit repository details**, supaya bagian ini makin akurat.
+> These descriptions were generated from each repo's name and language, since most repos don't have a description set on GitHub yet. Add a short description on each repo page → **Edit repository details** to make this section more accurate.
 
 ---
 
-## 📊 Statistik GitHub
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -184,61 +189,31 @@ Eksperimen model transformer, ditulis dalam Go.
 
 ---
 
-## 🐍 Animasi Kontribusi (Snake)
+## 🐍 Contribution Snake
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/zona-0/zona-0/output/github-contribution-grid-snake.svg" width="80%" alt="snake animation"/>
 </div>
 
 <details>
-<summary>⚙️ Cara mengaktifkan animasi ular ini</summary>
+<summary>⚙️ How to enable this animation</summary>
 <br/>
 
-1. Buat file `.github/workflows/snake.yml` di repo profil kamu (`zona-0/zona-0`).
-2. Gunakan GitHub Action resmi [`Platane/snk`](https://github.com/Platane/snk) — cukup copy-paste contoh workflow dari repo tersebut.
-3. Action akan otomatis membuat file SVG di branch `output`, jadi gambar di atas otomatis terisi setelah workflow jalan pertama kali.
+1. Create a `.github/workflows/snake.yml` file in your profile repo (`zona-0/zona-0`).
+2. Use the official [`Platane/snk`](https://github.com/Platane/snk) GitHub Action — just copy the example workflow from that repo.
+3. The action will automatically generate an SVG on the `output` branch, so the image above fills in after the workflow runs once.
 
 </details>
 
 ---
 
-## 🎮 Mini Game
+## 📫 Contact
 
 <div align="center">
 
-<a href="https://zona-0.github.io/zona-0/game/">
-  <img src="https://img.shields.io/badge/▶ MAINKAN NEON ORB RUSH-0969da?style=for-the-badge&logoColor=ffffff&color=0969da" height="46"/>
-</a>
-
-<sub>Game HTML5 asli — klik bola yang bersinar sebelum menghilang, hindari bola merah. File game ada di folder <code>game/index.html</code>, di-host lewat GitHub Pages.</sub>
-
-</div>
-
-**Cara mengaktifkan:**
-1. Push folder `game/` ke repo profil `zona-0/zona-0` (atau repo lain).
-2. Buka **Settings → Pages**, pilih branch `main`, folder `/ (root)`.
-3. Game akan live di `https://zona-0.github.io/<nama-repo>/game/`.
-
----
-
-## 🎥 Video Demo
-
-<div align="center">
-
-<!-- Upload video lewat editor GitHub.com (drag & drop file .mp4 ke kotak teks), lalu tempel link hasilnya di sini -->
-**[ Tempel di sini link video hasil upload dari editor GitHub — otomatis jadi video player ]**
-
-</div>
-
----
-
-## 📫 Kontak
-
-<div align="center">
-
-<!-- Belum ada info kontak/sosial media di profil GitHub kamu — isi link asli di bawah ini -->
-<a href="mailto:email@kamu.com"><img src="https://img.shields.io/badge/Email-f6f8fa?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
-<a href="https://linkedin.com/in/username-kamu"><img src="https://img.shields.io/badge/LinkedIn-f6f8fa?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
+<!-- No contact/social info found on your GitHub profile — replace with your real links -->
+<a href="mailto:email@example.com"><img src="https://img.shields.io/badge/Email-f6f8fa?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
+<a href="https://linkedin.com/in/your-username"><img src="https://img.shields.io/badge/LinkedIn-f6f8fa?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
 <a href="https://github.com/zona-0"><img src="https://img.shields.io/badge/GitHub-f6f8fa?style=for-the-badge&logo=github&logoColor=181717"/></a>
 
 </div>
