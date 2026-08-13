@@ -2,8 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/zona-0/zona-0/main/assets/header.svg" width="100%" alt="header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Next.js+%C2%B7+React+%C2%B7+Vue+3;Go+%C2%B7+Express+%C2%B7+PostgreSQL+on+the+backend;Building+AI+tools+and+web+platforms" alt="typing"/>
-
 </div>
 
 ---
