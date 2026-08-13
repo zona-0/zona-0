@@ -35,7 +35,7 @@
   <rect width="900" height="310" rx="14" fill="#0d1a14" stroke="#1a3d2e" stroke-width="1"/>
 
   <text class="t-title" x="34" y="46" filter="url(#gw)">Language Distribution</text>
-  <text class="t-sub"   x="34" y="66">Primary language across 10 public repositories · zona-0</text>
+  <text class="t-sub"   x="34" y="66">Primary language across public repositories</text>
   <circle class="dot d1" cx="828" cy="38" r="4" fill="#00E5A0"/>
   <circle class="dot d2" cx="848" cy="38" r="4" fill="#00E5A0"/>
   <circle class="dot d3" cx="868" cy="38" r="4" fill="#00E5A0"/>
