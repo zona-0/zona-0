@@ -2,48 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/zona-0/zona-0/main/assets/header.svg" width="100%" alt="header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Next.js+%C2%B7+React+%C2%B7+Vue+3+Developer;Go+%C2%B7+Express+%C2%B7+PostgreSQL+on+the+backend;Building+AI+tools+and+web+platforms" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Next.js+%C2%B7+React+%C2%B7+Vue+3;Go+%C2%B7+Express+%C2%B7+PostgreSQL+on+the+backend;Building+AI+tools+and+web+platforms" alt="typing"/>
 
 </div>
-
----
-
-```go
-package main
-
-import "fmt"
-
-type Engineer struct {
-	Name     string
-	Role     string
-	Location string
-	Stack    []string
-	Focus    []string
-}
-
-func main() {
-	me := Engineer{
-		Name:     "Zona",
-		Role:     "Software Engineer",
-		Location: "Indonesia",
-		Stack:    []string{"Go", "Next.js", "React", "Vue 3", "Express", "PostgreSQL"},
-		Focus:    []string{"AI Tooling", "Backend Systems", "Web Platforms"},
-	}
-
-	fmt.Printf("👤  %s — %s\n", me.Name, me.Role)
-	fmt.Printf("📍  %s\n", me.Location)
-	fmt.Printf("🛠   %v\n", me.Stack)
-	fmt.Printf("🎯  %v\n", me.Focus)
-}
-```
-
-```sh
-$ go run main.go
-👤  Zona — Software Engineer
-📍  Indonesia
-🛠   [Go Next.js React Vue 3 Express PostgreSQL]
-🎯  [AI Tooling Backend Systems Web Platforms]
-```
 
 ---
 
