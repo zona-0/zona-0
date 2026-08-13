@@ -26,41 +26,6 @@
 
 ---
 
-```ts
-const repos = [
-  { name: "Career-Edge",                  lang: "Go",         desc: "AI-assistance platform for career workflows"        },
-  { name: "caas_healthy_0",               lang: "Next.js",    desc: "Health dashboard built with Next.js 16 + React 19"  },
-  { name: "WeBean",                       lang: "React",      desc: "React + Express + PostgreSQL web application"       },
-  { name: "SmartTrafficManagement",       lang: "Vue 3",      desc: "Vue 3 + Vite + Express traffic management system"   },
-  { name: "VoIP-Integration",             lang: "React",      desc: "React + Vite frontend with Express + Kamailio VoIP" },
-  { name: "Virtual_PreTrained_Transformer", lang: "Go",       desc: "Experimental transformer architecture in Go"        },
-  { name: "learning-assistant",           lang: "Java",       desc: "Java learning companion with MySQL backend"         },
-  { name: "CleverAI",                     lang: "Java",       desc: "Java intelligent system with MySQL integration"     },
-  { name: "GO_VPT",                       lang: "Go",         desc: "Go variant of the VPT experiment"                  },
-  { name: "Local-CDN-Project",            lang: "HTML",       desc: "Lightweight local CDN for offline asset serving"    },
-] as const;
-
-repos.forEach(r =>
-  console.log(`[${r.lang.padEnd(8)}] zona-0/${r.name.padEnd(34)} — ${r.desc}`)
-);
-```
-
-```sh
-$ npx ts-node repos.ts
-[Go      ] zona-0/Career-Edge                   — AI-assistance platform for career workflows
-[Next.js ] zona-0/caas_healthy_0                — Health dashboard built with Next.js 16 + React 19
-[React   ] zona-0/WeBean                        — React + Express + PostgreSQL web application
-[Vue 3   ] zona-0/SmartTrafficManagement        — Vue 3 + Vite + Express traffic management system
-[React   ] zona-0/VoIP-Integration              — React + Vite frontend with Express + Kamailio VoIP
-[Go      ] zona-0/Virtual_PreTrained_Transformer — Experimental transformer architecture in Go
-[Java    ] zona-0/learning-assistant            — Java learning companion with MySQL backend
-[Java    ] zona-0/CleverAI                      — Java intelligent system with MySQL integration
-[Go      ] zona-0/GO_VPT                        — Go variant of the VPT experiment
-[HTML    ] zona-0/Local-CDN-Project             — Lightweight local CDN for offline asset serving
-```
-
----
-
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=zona-0&custom_title=Contribution+Activity&theme=react-dark&hide_border=true&bg_color=0d1a14&color=7FFFD4&line=00E5A0&point=ffffff&area=true&area_color=00E5A0&title_color=00E5A0" width="100%" alt="activity"/>
 </div>
