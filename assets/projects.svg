@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#122b21"/><stop offset="100%" stop-color="#0d1a14"/>
+    </linearGradient>
+    <linearGradient id="hoverLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5A0"/><stop offset="100%" stop-color="#7FFFD4"/>
+    </linearGradient>
+    <filter id="gw"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .t-section { font:700 20px 'Segoe UI',Ubuntu,sans-serif; fill:#7FFFD4; }
+      .t-sub     { font:400 12px 'Segoe UI',Ubuntu,sans-serif; fill:#3d8a72; }
+      .card      { fill:url(#cardBg); stroke:#1a3d2e; stroke-width:1; rx:10; }
+      .p-name    { font:700 15px 'Segoe UI',Ubuntu,sans-serif; fill:#d6fff2; }
+      .p-desc    { font:400 12px 'Segoe UI',Ubuntu,sans-serif; fill:#4dbb97; }
+      .p-lang    { font:600 11px 'Segoe UI',Ubuntu,sans-serif; fill:#0a1a14; }
+      .lang-pill { rx:10; }
+
+      .card-g { animation: cardIn .5s ease-out forwards; }
+      .g1{animation-delay:.08s}.g2{animation-delay:.16s}.g3{animation-delay:.24s}.g4{animation-delay:.32s}
+      .g5{animation-delay:.40s}.g6{animation-delay:.48s}.g7{animation-delay:.56s}.g8{animation-delay:.64s}
+      @keyframes cardIn { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:none} }
+
+      .accent-line { animation: lineGrow .8s ease-out forwards; transform-origin: left center; }
+      .al1{animation-delay:.18s}.al2{animation-delay:.26s}.al3{animation-delay:.34s}.al4{animation-delay:.42s}
+      .al5{animation-delay:.50s}.al6{animation-delay:.58s}.al7{animation-delay:.66s}.al8{animation-delay:.74s}
+      @keyframes lineGrow { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+    </style>
+  </defs>
+
+  <rect width="900" height="560" rx="14" fill="#0d1a14" stroke="#1a3d2e"/>
+
+  <!-- Section header -->
+  <text class="t-section" x="34" y="42" filter="url(#gw)">Projects</text>
+  <text class="t-sub"     x="34" y="60">10 public repositories · zona-0</text>
+
+  <!-- Row 1 -->
+  <!-- Career-Edge -->
+  <g class="card-g g1">
+    <rect x="24" y="76" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al1" x="24" y="76" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="44" y="106">Career-Edge</text>
+    <text class="p-desc" x="44" y="124">AI-assistance platform for career workflows</text>
+    <rect x="44" y="135" width="42" height="22" rx="11" fill="#00E5A0"/>
+    <text class="p-lang" x="65" y="150" text-anchor="middle">Go</text>
+  </g>
+
+  <!-- WeBean -->
+  <g class="card-g g2">
+    <rect x="464" y="76" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al2" x="464" y="76" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="484" y="106">WeBean</text>
+    <text class="p-desc" x="484" y="124">JavaScript application under active development</text>
+    <rect x="484" y="135" width="78" height="22" rx="11" fill="#00C98C"/>
+    <text class="p-lang" x="523" y="150" text-anchor="middle">JavaScript</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- CleverAI -->
+  <g class="card-g g3">
+    <rect x="24" y="192" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al3" x="24" y="192" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="44" y="222">CleverAI</text>
+    <text class="p-desc" x="44" y="240">Java-based intelligent system for AI integration</text>
+    <rect x="44" y="251" width="44" height="22" rx="11" fill="#00B07C"/>
+    <text class="p-lang" x="66" y="266" text-anchor="middle">Java</text>
+  </g>
+
+  <!-- SmartTrafficManagement -->
+  <g class="card-g g4">
+    <rect x="464" y="192" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al4" x="464" y="192" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="484" y="222">SmartTrafficManagement</text>
+    <text class="p-desc" x="484" y="240">Traffic management interface built on Vue.js</text>
+    <rect x="484" y="251" width="40" height="22" rx="11" fill="#009068"/>
+    <text class="p-lang" x="504" y="266" text-anchor="middle">Vue</text>
+  </g>
+
+  <!-- Row 3 -->
+  <!-- Virtual_PreTrained_Transformer -->
+  <g class="card-g g5">
+    <rect x="24" y="308" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al5" x="24" y="308" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="44" y="338">Virtual_PreTrained_Transformer</text>
+    <text class="p-desc" x="44" y="356">Experimental transformer architecture in Go</text>
+    <rect x="44" y="367" width="42" height="22" rx="11" fill="#00E5A0"/>
+    <text class="p-lang" x="65" y="382" text-anchor="middle">Go</text>
+  </g>
+
+  <!-- VoIP-Integration -->
+  <g class="card-g g6">
+    <rect x="464" y="308" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al6" x="464" y="308" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="484" y="338">VoIP-Integration</text>
+    <text class="p-desc" x="484" y="356">VoIP service integration layer</text>
+    <rect x="484" y="367" width="78" height="22" rx="11" fill="#00C98C"/>
+    <text class="p-lang" x="523" y="382" text-anchor="middle">JavaScript</text>
+  </g>
+
+  <!-- Row 4 -->
+  <!-- learning-assistant -->
+  <g class="card-g g7">
+    <rect x="24" y="424" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al7" x="24" y="424" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="44" y="454">learning-assistant</text>
+    <text class="p-desc" x="44" y="472">Java companion for structuring study material</text>
+    <rect x="44" y="483" width="44" height="22" rx="11" fill="#00B07C"/>
+    <text class="p-lang" x="66" y="498" text-anchor="middle">Java</text>
+  </g>
+
+  <!-- Local-CDN-Project -->
+  <g class="card-g g8">
+    <rect x="464" y="424" width="412" height="100" rx="10" class="card"/>
+    <rect class="accent-line al8" x="464" y="424" width="412" height="3" rx="2" fill="url(#hoverLine)" filter="url(#gw)"/>
+    <text class="p-name" x="484" y="454">Local-CDN-Project</text>
+    <text class="p-desc" x="484" y="472">Lightweight local CDN for offline asset serving</text>
+    <rect x="484" y="483" width="54" height="22" rx="11" fill="#007558"/>
+    <text class="p-lang" x="511" y="498" text-anchor="middle">HTML</text>
+  </g>
+</svg>
