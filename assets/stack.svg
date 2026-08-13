@@ -32,7 +32,7 @@
   </defs>
   <rect width="900" height="280" rx="14" fill="#0d1a14" stroke="#1a3d2e" stroke-width="1"/>
   <text class="t-title" x="34" y="42" filter="url(#gw)">Tech Stack</text>
-  <text class="t-sub"   x="34" y="60">Actual frameworks &amp; tools from zona-0 repositories</text>
+  <text class="t-sub"   x="34" y="60">Actual frameworks &amp; tools</text>
   <circle class="dot d1" cx="828" cy="34" r="4" fill="#00E5A0"/>
   <circle class="dot d2" cx="848" cy="34" r="4" fill="#00E5A0"/>
   <circle class="dot d3" cx="868" cy="34" r="4" fill="#00E5A0"/>
