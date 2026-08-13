@@ -8,44 +8,35 @@
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <style>
-      .val   { font: 800 42px 'Segoe UI', Ubuntu, sans-serif; fill: #00E5A0; }
-      .label { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; fill: #4dbb97; letter-spacing: 2px; }
-      .sub   { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #2d6a54; }
-      .div   { stroke: #1a3d2e; stroke-width: 1; }
-      .fade  { animation: fi .6s ease-out both; }
-      .f1{animation-delay:.05s}.f2{animation-delay:.15s}.f3{animation-delay:.25s}.f4{animation-delay:.35s}
-      @keyframes fi { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:none} }
-    </style>
   </defs>
 
   <rect width="900" height="160" rx="14" fill="url(#bg)" stroke="#1a3d2e" stroke-width="1"/>
 
-  <line class="div" x1="225" y1="24" x2="225" y2="136"/>
-  <line class="div" x1="450" y1="24" x2="450" y2="136"/>
-  <line class="div" x1="675" y1="24" x2="675" y2="136"/>
+  <line x1="225" y1="24" x2="225" y2="136" stroke="#1a3d2e" stroke-width="1"/>
+  <line x1="450" y1="24" x2="450" y2="136" stroke="#1a3d2e" stroke-width="1"/>
+  <line x1="675" y1="24" x2="675" y2="136" stroke="#1a3d2e" stroke-width="1"/>
 
-  <g class="fade f1" transform="translate(112,80)">
-    <text class="val" x="0" y="-8" text-anchor="middle" filter="url(#glow)">158</text>
-    <text class="label" x="0" y="18" text-anchor="middle">TOTAL CONTRIBUTIONS</text>
-    <text class="sub"   x="0" y="34" text-anchor="middle">Aug 2024 – Present</text>
+  <g transform="translate(112,80)">
+    <text x="0" y="-8" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">158</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="600" fill="#4dbb97" letter-spacing="2">TOTAL CONTRIBUTIONS</text>
+    <text x="0" y="34" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" fill="#2d6a54">Aug 2024 – Present</text>
   </g>
 
-  <g class="fade f2" transform="translate(337,80)">
-    <text class="val" x="0" y="-8" text-anchor="middle" filter="url(#glow)">1</text>
-    <text class="label" x="0" y="18" text-anchor="middle">CURRENT STREAK</text>
-    <text class="sub"   x="0" y="34" text-anchor="middle">Aug 13, 2026</text>
+  <g transform="translate(337,80)">
+    <text x="0" y="-8" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">1</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="600" fill="#4dbb97" letter-spacing="2">CURRENT STREAK</text>
+    <text x="0" y="34" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" fill="#2d6a54">Aug 13, 2026</text>
   </g>
 
-  <g class="fade f3" transform="translate(562,80)">
-    <text class="val" x="0" y="-8" text-anchor="middle" filter="url(#glow)">3</text>
-    <text class="label" x="0" y="18" text-anchor="middle">LONGEST STREAK</text>
-    <text class="sub"   x="0" y="34" text-anchor="middle">May 16 – 18, 2025</text>
+  <g transform="translate(562,80)">
+    <text x="0" y="-8" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">3</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="600" fill="#4dbb97" letter-spacing="2">LONGEST STREAK</text>
+    <text x="0" y="34" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" fill="#2d6a54">May 16 – 18, 2025</text>
   </g>
 
-  <g class="fade f4" transform="translate(787,80)">
-    <text class="val" x="0" y="-8" text-anchor="middle" filter="url(#glow)">10</text>
-    <text class="label" x="0" y="18" text-anchor="middle">PUBLIC REPOS</text>
-    <text class="sub"   x="0" y="34" text-anchor="middle">github.com/zona-0</text>
+  <g transform="translate(787,80)">
+    <text x="0" y="-8" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="42" font-weight="800" fill="#00E5A0" filter="url(#glow)">10</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" font-weight="600" fill="#4dbb97" letter-spacing="2">PUBLIC REPOS</text>
+    <text x="0" y="34" text-anchor="middle" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11" fill="#2d6a54">github.com/zona-0</text>
   </g>
 </svg>
