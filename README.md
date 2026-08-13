@@ -1,76 +1,52 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e6f4ff,100:ffffff&height=200&section=header&text=ZONA&fontSize=52&fontColor=0969da&animation=fadeIn&fontAlignY=38&desc=Backend%20%26%20Web%20Developer&descAlignY=58&descSize=18&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0b8f6a,70:00E5A0,100:0d1117&height=230&section=header&text=ZONA&fontSize=68&fontColor=d6fff2&animation=fadeIn&fontAlignY=36&desc=Backend%20%C2%B7%20AI%20Tooling%20%C2%B7%20Web&descAlignY=56&descSize=18&descAlign=50" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=650&lines=Go+%C2%B7+Java+%C2%B7+JavaScript+Developer;Building+AI+assistants+and+backend+systems;Always+shipping%2C+always+learning" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=00E5A0&center=true&vCenter=true&width=680&lines=Go+%C2%B7+Java+%C2%B7+JavaScript+Developer;Building+AI+assistants+and+backend+systems;10+public+repositories+and+counting" alt="typing" />
 
 <br/>
 
-<a href="#-about">About</a> •
-<a href="#-languages">Languages</a> •
-<a href="#-projects">Projects</a> •
-<a href="#-github-stats">Stats</a> •
-<a href="#-achievements">Achievements</a> •
-<a href="#-connect">Connect</a>
+<img src="https://img.shields.io/github/followers/zona-0?label=Followers&style=for-the-badge&color=00E5A0&labelColor=0d1117&logo=github&logoColor=00E5A0" />
+<img src="https://img.shields.io/badge/Repositories-10-00E5A0?style=for-the-badge&labelColor=0d1117&logo=git&logoColor=00E5A0" />
+<img src="https://komarev.com/ghpvc/?username=zona-0&label=Views&color=00E5A0&style=for-the-badge" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/github/followers/zona-0?label=Followers&style=flat-square&color=0969da&labelColor=f6f8fa" />
-<img src="https://img.shields.io/badge/Public_Repos-10-0969da?style=flat-square&labelColor=f6f8fa" />
-<img src="https://komarev.com/ghpvc/?username=zona-0&label=Profile+Views&color=0969da&style=flat-square" />
+<img src="https://raw.githubusercontent.com/zona-0/zona-0/main/assets/stack.svg" width="94%" alt="tech stack"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/zona-0/zona-0/main/assets/languages.svg" width="94%" alt="language distribution"/>
 
 </div>
 
-<br/>
-
-## 👋 About
-
-I build backend services and web applications, with a particular interest in AI-assisted tools and distributed systems. Most of my work lives in Go and Java on the server side, with JavaScript and Vue on the front.
-
-```yaml
-Focus       : Backend engineering, AI assistants, web platforms
-Core Stack  : Go · Java · JavaScript · Vue
-Currently   : Building WeBean and Career-Edge
-```
-
 ---
-
-## 💻 Languages
 
 <div align="center">
 
-![Go](https://img.shields.io/badge/Go-f6f8fa?style=for-the-badge&logo=go&logoColor=00ADD8)
-![Java](https://img.shields.io/badge/Java-f6f8fa?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-![JavaScript](https://img.shields.io/badge/JavaScript-f6f8fa?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Vue.js](https://img.shields.io/badge/Vue.js-f6f8fa?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![HTML5](https://img.shields.io/badge/HTML5-f6f8fa?style=for-the-badge&logo=html5&logoColor=E34F26)
+## 📊 Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=zona-0&custom_title=Contribution%20Activity&theme=react-dark&hide_border=true&bg_color=0d1117&color=7FFFD4&line=00E5A0&point=ffffff&area=true&area_color=00E5A0&title_color=00E5A0" width="96%"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=zona-0&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=00E5A0&icon_color=7FFFD4&text_color=d6fff2&ring_color=00E5A0" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zona-0&theme=transparent&hide_border=true&background=0d1117&ring=00E5A0&fire=7FFFD4&currStreakLabel=00E5A0&sideLabels=d6fff2&currStreakNum=ffffff&sideNums=ffffff&dates=4d7f72" width="48%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zona-0&layout=donut&theme=transparent&hide_border=true&bg_color=0d1117&title_color=00E5A0&text_color=d6fff2" width="40%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zona-0&theme=github_dark" width="52%"/>
 
 </div>
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-| Language | Repositories | Share |
-|:---|:---:|:---|
-| 🔵 **Go** | 3 | `██████░░░░░░░░░░░░░░` 30% |
-| 🟡 **JavaScript** | 3 | `██████░░░░░░░░░░░░░░` 30% |
-| 🟠 **Java** | 2 | `████░░░░░░░░░░░░░░░░` 20% |
-| 🟢 **Vue** | 1 | `██░░░░░░░░░░░░░░░░░░` 10% |
-| 🔴 **HTML** | 1 | `██░░░░░░░░░░░░░░░░░░` 10% |
-
-</td>
-<td width="45%" valign="top">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zona-0&layout=donut&theme=default&hide_border=true&bg_color=ffffff&title_color=0969da&text_color=24292f" width="100%"/>
-
-</td>
-</tr>
-</table>
-
 ---
 
+<div align="center">
+
 ## 🚀 Projects
+
+</div>
 
 <table>
 <tr>
@@ -78,18 +54,18 @@ Currently   : Building WeBean and Career-Edge
 
 ### 🤖 [Career-Edge](https://github.com/zona-0/Career-Edge)
 
-An AI-assistance platform designed to support career development workflows.
+AI-assistance platform supporting career development workflows.
 
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+![Go](https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00E5A0)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌱 [WeBean](https://github.com/zona-0/WeBean)
 
-A JavaScript application currently under active development.
+JavaScript application under active development.
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00E5A0)
 
 </td>
 </tr>
@@ -98,18 +74,18 @@ A JavaScript application currently under active development.
 
 ### 🧠 [CleverAI](https://github.com/zona-0/CleverAI)
 
-A Java-based intelligent system exploring practical AI integration.
+Java-based intelligent system exploring practical AI integration.
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00E5A0)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🚦 [SmartTrafficManagement](https://github.com/zona-0/SmartTrafficManagement)
 
-A traffic management interface built on Vue.js.
+Traffic management interface built on Vue.js.
 
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+![Vue](https://img.shields.io/badge/Vue.js-0d1117?style=flat-square&logo=vuedotjs&logoColor=00E5A0)
 
 </td>
 </tr>
@@ -120,7 +96,7 @@ A traffic management interface built on Vue.js.
 
 Experimental transformer architecture implemented in Go.
 
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+![Go](https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00E5A0)
 
 </td>
 <td width="50%" valign="top">
@@ -129,7 +105,7 @@ Experimental transformer architecture implemented in Go.
 
 VoIP service integration layer written in JavaScript.
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00E5A0)
 
 </td>
 </tr>
@@ -138,18 +114,18 @@ VoIP service integration layer written in JavaScript.
 
 ### 🎓 [learning-assistant](https://github.com/zona-0/learning-assistant)
 
-A Java learning companion built to structure and track study material.
+Java learning companion for structuring and tracking study material.
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00E5A0)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌐 [Local-CDN-Project](https://github.com/zona-0/Local-CDN-Project)
 
-A lightweight local content delivery setup for offline asset serving.
+Lightweight local content delivery setup for offline asset serving.
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+![HTML](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=00E5A0)
 
 </td>
 </tr>
@@ -157,57 +133,37 @@ A lightweight local content delivery setup for offline asset serving.
 
 <div align="center">
 
-**More work →**
-[![GO_VPT](https://img.shields.io/badge/GO__VPT-00ADD8?style=flat-square&logo=go&logoColor=white)](https://github.com/zona-0/GO_VPT)
-[![caas_healthy_0](https://img.shields.io/badge/caas__healthy__0-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/zona-0/caas_healthy_0)
+[![GO_VPT](https://img.shields.io/badge/GO__VPT-0d1117?style=for-the-badge&logo=go&logoColor=00E5A0)](https://github.com/zona-0/GO_VPT)
+[![caas_healthy_0](https://img.shields.io/badge/caas__healthy__0-0d1117?style=for-the-badge&logo=javascript&logoColor=00E5A0)](https://github.com/zona-0/caas_healthy_0)
 
 </div>
 
 ---
-
-## 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=zona-0&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&include_all_commits=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zona-0&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0969da&text_color=24292f" width="42%" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zona-0&theme=default&hide_border=true&background=ffffff&ring=0969da&fire=0969da&currStreakLabel=0969da" width="60%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zona-0&theme=minimal&hide_border=true&bg_color=ffffff&color=0969da&line=0969da&point=24292f&area=true&area_color=0969da" width="92%"/>
-
-</div>
-
----
 
 ## 🏆 Achievements
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=zona-0&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8" width="100%"/>
-</div>
+<img src="https://github-profile-trophy.vercel.app/?username=zona-0&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" width="100%"/>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/zona-0/zona-0/output/github-contribution-grid-snake.svg" width="88%" alt="contribution graph"/>
+<br/>
+
+<img src="https://raw.githubusercontent.com/zona-0/zona-0/output/github-contribution-grid-snake-dark.svg" width="94%" alt="contribution snake"/>
+
 </div>
 
 ---
-
-## 🤝 Connect
 
 <div align="center">
 
 <a href="https://github.com/zona-0">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00E5A0" />
 </a>
 
 <br/><br/>
 
 <sub>Open to collaboration on backend, AI tooling, and open-source projects.</sub>
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0b8f6a,70:00E5A0,100:0d1117&height=120&section=footer" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e6f4ff,100:ffffff&height=100&section=footer" width="100%"/>
+</div>
