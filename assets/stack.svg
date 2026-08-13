@@ -1,100 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" fill="none" role="img" aria-label="Tech stack orbit">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
   <defs>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="35%" stop-color="#7FFFD4"/>
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="30%"  stop-color="#7FFFD4"/>
+      <stop offset="70%"  stop-color="#00E5A0" stop-opacity=".6"/>
       <stop offset="100%" stop-color="#00E5A0" stop-opacity="0"/>
     </radialGradient>
-
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="3.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-
+    <filter id="gw"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="gw2"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
-      .ring { fill: none; stroke: #1e4438; stroke-width: 1.2; }
-      .ring-lit { fill: none; stroke: #00E5A0; stroke-width: 1.4; opacity: .5;
-                  stroke-dasharray: 10 320; animation: dash 6s linear infinite; }
-      @keyframes dash { to { stroke-dashoffset: -330; } }
+      .t-title { font:700 20px 'Segoe UI',Ubuntu,sans-serif; fill:#7FFFD4; }
+      .t-sub   { font:400 12px 'Segoe UI',Ubuntu,sans-serif; fill:#3d8a72; }
+      .node-txt{ font:700 13px 'Segoe UI',Ubuntu,sans-serif; fill:#0a1a14; }
 
-      .node { font: 700 13px 'Segoe UI', Ubuntu, sans-serif; fill: #0d1117; }
-      .cap  { font: 700 20px 'Segoe UI', Ubuntu, sans-serif; fill: #7FFFD4; }
-      .cap2 { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #4d7f72; }
+      .ring1 { fill:none; stroke:#1a3d2e; stroke-width:1.2; }
+      .ring2 { fill:none; stroke:#1a3d2e; stroke-width:1; }
+      .ring-lit {
+        fill:none; stroke:#00E5A0; stroke-width:1.5;
+        stroke-dasharray:14 260; opacity:.6;
+        animation: dashMove 5s linear infinite;
+      }
+      .ring-lit2 {
+        fill:none; stroke:#7FFFD4; stroke-width:1;
+        stroke-dasharray:8 170; opacity:.45;
+        animation: dashMove2 7s linear infinite reverse;
+      }
+      @keyframes dashMove  { to { stroke-dashoffset:-274; } }
+      @keyframes dashMove2 { to { stroke-dashoffset:-178; } }
 
-      .spin  { animation: spin 22s linear infinite; transform-origin: 410px 160px; }
-      .spin2 { animation: spin 30s linear infinite reverse; transform-origin: 410px 160px; }
-      @keyframes spin { to { transform: rotate(360deg); } }
+      .spin1  { animation: spin 20s linear infinite;         transform-origin:450px 155px; }
+      .spin2  { animation: spin 30s linear infinite reverse; transform-origin:450px 155px; }
+      .anti1  { animation: spin 20s linear infinite reverse; }
+      .anti2  { animation: spin 30s linear infinite; }
 
-      .counter  { animation: counter 22s linear infinite; }
-      .counter2 { animation: counter2 30s linear infinite; }
-      @keyframes counter  { to { transform: rotate(-360deg); } }
-      @keyframes counter2 { to { transform: rotate(360deg); } }
+      @keyframes spin { to { transform:rotate(360deg); } }
 
-      .breathe { animation: breathe 3.2s ease-in-out infinite; transform-origin: 410px 160px; }
-      @keyframes breathe { 0%,100% { transform: scale(1); opacity:.9 } 50% { transform: scale(1.14); opacity:1 } }
+      .core-pulse { animation: cp 2.8s ease-in-out infinite; transform-origin:450px 155px; }
+      @keyframes cp { 0%,100%{transform:scale(1);opacity:.85} 50%{transform:scale(1.18);opacity:1} }
 
-      .fade { animation: f .8s ease-out both; }
-      @keyframes f { from { opacity: 0 } to { opacity: 1 } }
+      .dot { animation: blink 2.5s ease-in-out infinite; }
+      .d1{animation-delay:0s}.d2{animation-delay:.4s}.d3{animation-delay:.8s}
+      @keyframes blink { 0%,100%{opacity:.3} 50%{opacity:1} }
+
+      .fade-in { animation: fi .8s ease-out forwards; }
+      @keyframes fi { from{opacity:0;transform:translateY(-8px)} to{opacity:1;transform:none} }
     </style>
   </defs>
 
-  <rect width="820" height="300" rx="14" fill="#0d1117" stroke="#1d3830"/>
+  <rect width="900" height="280" rx="14" fill="#0d1a14" stroke="#1a3d2e" stroke-width="1"/>
 
-  <g class="fade">
-    <text class="cap" x="34" y="42">Tech Stack</text>
-    <text class="cap2" x="34" y="62">Languages and frameworks I work with</text>
+  <!-- header -->
+  <g class="fade-in">
+    <text class="t-title" x="34" y="42" filter="url(#gw)">Tech Stack</text>
+    <text class="t-sub"   x="34" y="60">Languages &amp; tools I work with daily</text>
+  </g>
+  <circle class="dot d1" cx="828" cy="34" r="4" fill="#00E5A0"/>
+  <circle class="dot d2" cx="848" cy="34" r="4" fill="#00E5A0"/>
+  <circle class="dot d3" cx="868" cy="34" r="4" fill="#00E5A0"/>
+
+  <!-- outer ellipse ring -->
+  <ellipse class="ring1"  cx="450" cy="155" rx="210" ry="72"/>
+  <ellipse class="ring-lit" cx="450" cy="155" rx="210" ry="72"/>
+
+  <!-- inner ellipse ring -->
+  <ellipse class="ring2"   cx="450" cy="155" rx="128" ry="44"/>
+  <ellipse class="ring-lit2" cx="450" cy="155" rx="128" ry="44"/>
+
+  <!-- outer orbit: Go, JavaScript, Java, Vue -->
+  <g class="spin1">
+    <!-- Go – right -->
+    <g transform="translate(660,155)">
+      <g class="anti1">
+        <rect x="-30" y="-14" width="60" height="28" rx="14" fill="#00E5A0" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="5" text-anchor="middle">Go</text>
+      </g>
+    </g>
+    <!-- JavaScript – bottom -->
+    <g transform="translate(450,227)">
+      <g class="anti1">
+        <rect x="-48" y="-14" width="96" height="28" rx="14" fill="#00C98C" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="5" text-anchor="middle">JavaScript</text>
+      </g>
+    </g>
+    <!-- Java – left -->
+    <g transform="translate(240,155)">
+      <g class="anti1">
+        <rect x="-30" y="-14" width="60" height="28" rx="14" fill="#00B07C" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="5" text-anchor="middle">Java</text>
+      </g>
+    </g>
+    <!-- Vue – top -->
+    <g transform="translate(450,83)">
+      <g class="anti1">
+        <rect x="-28" y="-14" width="56" height="28" rx="14" fill="#009068" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="5" text-anchor="middle">Vue</text>
+      </g>
+    </g>
   </g>
 
-  <!-- orbit rings -->
-  <ellipse class="ring" cx="410" cy="160" rx="180" ry="62"/>
-  <ellipse class="ring" cx="410" cy="160" rx="110" ry="38"/>
-  <ellipse class="ring-lit" cx="410" cy="160" rx="180" ry="62"/>
-
-  <!-- core -->
-  <circle class="breathe" cx="410" cy="160" r="34" fill="url(#core)"/>
-  <circle cx="410" cy="160" r="15" fill="#00E5A0" filter="url(#soft)"/>
-
-  <!-- outer orbit nodes -->
-  <g class="spin">
-    <g transform="translate(590,160)">
-      <g class="counter">
-        <rect x="-30" y="-13" width="60" height="26" rx="13" fill="#7FFFD4" filter="url(#soft)"/>
-        <text class="node" x="0" y="5" text-anchor="middle">Go</text>
-      </g>
-    </g>
-    <g transform="translate(410,222)">
-      <g class="counter">
-        <rect x="-42" y="-13" width="84" height="26" rx="13" fill="#5EEBC0" filter="url(#soft)"/>
-        <text class="node" x="0" y="5" text-anchor="middle">JavaScript</text>
-      </g>
-    </g>
-    <g transform="translate(230,160)">
-      <g class="counter">
-        <rect x="-30" y="-13" width="60" height="26" rx="13" fill="#4BDDAE" filter="url(#soft)"/>
-        <text class="node" x="0" y="5" text-anchor="middle">Java</text>
-      </g>
-    </g>
-    <g transform="translate(410,98)">
-      <g class="counter">
-        <rect x="-28" y="-13" width="56" height="26" rx="13" fill="#3ACF9E" filter="url(#soft)"/>
-        <text class="node" x="0" y="5" text-anchor="middle">Vue</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- inner orbit nodes -->
+  <!-- inner orbit: HTML, Git -->
   <g class="spin2">
-    <g transform="translate(520,160)">
-      <g class="counter2">
-        <rect x="-28" y="-12" width="56" height="24" rx="12" fill="#2FBF90" filter="url(#soft)"/>
-        <text class="node" x="0" y="4" text-anchor="middle">HTML</text>
+    <g transform="translate(578,155)">
+      <g class="anti2">
+        <rect x="-30" y="-13" width="60" height="26" rx="13" fill="#007558" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="4" text-anchor="middle">HTML</text>
       </g>
     </g>
-    <g transform="translate(300,160)">
-      <g class="counter2">
-        <rect x="-26" y="-12" width="52" height="24" rx="12" fill="#2FBF90" filter="url(#soft)"/>
-        <text class="node" x="0" y="4" text-anchor="middle">Git</text>
+    <g transform="translate(322,155)">
+      <g class="anti2">
+        <rect x="-24" y="-13" width="48" height="26" rx="13" fill="#0B6B4E" filter="url(#gw)"/>
+        <text class="node-txt" x="0" y="4" text-anchor="middle">Git</text>
       </g>
     </g>
   </g>
+
+  <!-- core orb -->
+  <circle class="core-pulse" cx="450" cy="155" r="38" fill="url(#core)"/>
+  <circle cx="450" cy="155" r="16" fill="#00E5A0" filter="url(#gw2)"/>
+  <circle cx="450" cy="155" r="8"  fill="#ffffff"/>
 </svg>
