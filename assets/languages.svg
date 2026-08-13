@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330" fill="none" role="img" aria-label="Language distribution chart">
+  <defs>
+    <linearGradient id="gGo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5A0"/>
+      <stop offset="100%" stop-color="#7FFFD4"/>
+    </linearGradient>
+    <linearGradient id="gJs" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0FBF8A"/>
+      <stop offset="100%" stop-color="#5EEBC0"/>
+    </linearGradient>
+    <linearGradient id="gJava" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#12A87C"/>
+      <stop offset="100%" stop-color="#4BDDAE"/>
+    </linearGradient>
+    <linearGradient id="gVue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E8F6C"/>
+      <stop offset="100%" stop-color="#3ACF9E"/>
+    </linearGradient>
+    <linearGradient id="gHtml" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B735A"/>
+      <stop offset="100%" stop-color="#2FBF90"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title { font: 700 21px 'Segoe UI', Ubuntu, sans-serif; fill: #7FFFD4; }
+      .sub   { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #4d7f72; }
+      .lang  { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #d6fff2; }
+      .pct   { font: 700 13px 'Segoe UI', Ubuntu, sans-serif; fill: #7FFFD4; }
+      .track { fill: #16241f; }
+
+      .row { animation: rowIn .55s ease-out both; }
+      .r1 { animation-delay: .10s } .r2 { animation-delay: .25s }
+      .r3 { animation-delay: .40s } .r4 { animation-delay: .55s }
+      .r5 { animation-delay: .70s }
+
+      @keyframes rowIn {
+        from { opacity: 0; transform: translateX(-18px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+
+      .bar { transform-origin: left center; animation: grow 1.2s cubic-bezier(.22,.9,.28,1) both; }
+      .b1 { animation-delay: .30s } .b2 { animation-delay: .45s }
+      .b3 { animation-delay: .60s } .b4 { animation-delay: .75s }
+      .b5 { animation-delay: .90s }
+
+      @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+      .head { animation: fadeUp .7s ease-out both; }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(-10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: .85 } }
+    </style>
+  </defs>
+
+  <rect width="820" height="330" rx="14" fill="#0d1117" stroke="#1d3830"/>
+
+  <!-- decorative pulsing dots -->
+  <circle class="pulse" cx="770" cy="42" r="3" fill="#00E5A0"/>
+  <circle class="pulse" cx="784" cy="42" r="3" fill="#00E5A0" style="animation-delay:.6s"/>
+  <circle class="pulse" cx="798" cy="42" r="3" fill="#00E5A0" style="animation-delay:1.2s"/>
+
+  <g class="head">
+    <text class="title" x="34" y="46" filter="url(#glow)">Language Distribution</text>
+    <text class="sub" x="34" y="68">Primary language across 10 public repositories</text>
+  </g>
+
+  <!-- Go 30% -->
+  <g class="row r1">
+    <text class="lang" x="34" y="112">Go</text>
+    <rect class="track" x="150" y="98" width="560" height="18" rx="9"/>
+    <rect class="bar b1" x="150" y="98" width="168" height="18" rx="9" fill="url(#gGo)" filter="url(#glow)"/>
+    <text class="pct" x="732" y="112">30%</text>
+  </g>
+
+  <!-- JavaScript 30% -->
+  <g class="row r2">
+    <text class="lang" x="34" y="156">JavaScript</text>
+    <rect class="track" x="150" y="142" width="560" height="18" rx="9"/>
+    <rect class="bar b2" x="150" y="142" width="168" height="18" rx="9" fill="url(#gJs)" filter="url(#glow)"/>
+    <text class="pct" x="732" y="156">30%</text>
+  </g>
+
+  <!-- Java 20% -->
+  <g class="row r3">
+    <text class="lang" x="34" y="200">Java</text>
+    <rect class="track" x="150" y="186" width="560" height="18" rx="9"/>
+    <rect class="bar b3" x="150" y="186" width="112" height="18" rx="9" fill="url(#gJava)" filter="url(#glow)"/>
+    <text class="pct" x="732" y="200">20%</text>
+  </g>
+
+  <!-- Vue 10% -->
+  <g class="row r4">
+    <text class="lang" x="34" y="244">Vue</text>
+    <rect class="track" x="150" y="230" width="560" height="18" rx="9"/>
+    <rect class="bar b4" x="150" y="230" width="56" height="18" rx="9" fill="url(#gVue)" filter="url(#glow)"/>
+    <text class="pct" x="732" y="244">10%</text>
+  </g>
+
+  <!-- HTML 10% -->
+  <g class="row r5">
+    <text class="lang" x="34" y="288">HTML</text>
+    <rect class="track" x="150" y="274" width="560" height="18" rx="9"/>
+    <rect class="bar b5" x="150" y="274" width="56" height="18" rx="9" fill="url(#gHtml)" filter="url(#glow)"/>
+    <text class="pct" x="732" y="288">10%</text>
+  </g>
+</svg>
