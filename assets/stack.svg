@@ -104,7 +104,7 @@
       </g>
     </g>
   </g>
-
+  
   <circle class="core-pulse" cx="450" cy="155" r="38" fill="url(#core)"/>
   <circle cx="450" cy="155" r="16" fill="#00E5A0" filter="url(#gw2)"/>
   <circle cx="450" cy="155" r="8"  fill="#ffffff"/>
